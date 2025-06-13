@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             unemp_rate   R-squared:                       0.791
+Model:                            OLS   Adj. R-squared:                  0.783
+Method:                 Least Squares   F-statistic:                     95.99
+Date:                Fri, 13 Jun 2025   Prob (F-statistic):           8.87e-26
+Time:                        12:41:18   Log-Likelihood:                -3.2904
+No. Observations:                  80   AIC:                             14.58
+Df Residuals:                      76   BIC:                             24.11
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept               3.9630      0.050     79.605      0.000       3.864       4.062
+treated                 0.6111      0.070      8.680      0.000       0.471       0.751
+post_policy             0.1678      0.087      1.922      0.058      -0.006       0.342
+treated:post_policy     0.6350      0.123      5.142      0.000       0.389       0.881
+==============================================================================
+Omnibus:                        6.046   Durbin-Watson:                   0.290
+Prob(Omnibus):                  0.049   Jarque-Bera (JB):                8.693
+Skew:                          -0.191   Prob(JB):                       0.0130
+Kurtosis:                       4.569   Cond. No.                         6.32
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
